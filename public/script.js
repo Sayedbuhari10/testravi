@@ -16,7 +16,7 @@ function checkForPalindrome (input ) {
   resultDiv.replaceChildren();
 
   const lowerCaseStr = input.replace(/[^A-Za-z0-9]/gi, '').toLowerCase();
- resultDiv.innerHTMl+="<p> we dont care, we are cute gay couples</p>";
+ resultDiv.innerHTML +="<p> we dont care, we are cute gay couples</p>";
     const img = document.createElement("img");
 
   // Set the image source
