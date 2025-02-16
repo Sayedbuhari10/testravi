@@ -115,5 +115,5 @@ label {
 }
 p {
   width: 200px;  /* Set width to 200px */
-  height: auto;  /* Maintain aspect ratio */
+  height: 200px;  /* Maintain aspect ratio */
 }
