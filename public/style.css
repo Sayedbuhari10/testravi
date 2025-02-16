@@ -113,7 +113,10 @@ label {
   vertical-align: middle;
   text-align: center;
 }
-p {
-  width: 200px;  /* Set width to 200px */
-  height: 200px;  /* Maintain aspect ratio */
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
 }
