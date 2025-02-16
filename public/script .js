@@ -14,12 +14,11 @@ const checkForPalindrome = input => {
   resultDiv.replaceChildren();
 
   const lowerCaseStr = input.replace(/[^A-Za-z0-9]/gi, '').toLowerCase();
-  let resultMsg ="ravi is a gay";
 
-  const pTag = document.createElement('p');
-  pTag.className = 'user-input';
-  pTag.innerText = resultMsg;
-  resultDiv.appendChild(pTag);
+  let resultMsg ='<img src="images/New sign.jpg" alt="Local Image">';
+
+  
+  resultDiv.innerHTML+=resultMsg;
 
   // Show the result.
   resultDiv.classList.remove('hidden');
