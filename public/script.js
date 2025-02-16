@@ -15,10 +15,23 @@ function checkForPalindrome (input ) {
   resultDiv.replaceChildren();
 
   const lowerCaseStr = input.replace(/[^A-Za-z0-9]/gi, '').toLowerCase();
-  let resultMsg ='<p>We dont care ,we are cute gay couples</p><p id="hp" > <img src="images/New sign.jpg" alt="Local Image"></p>';
+ resultDiv.innerHTMl+="<p> we dont care, we are cute gay couples</p>";
+    const img = document.createElement("img");
+
+  // Set the image source
+  img.src ="images/New sign.jpg";  // Replace with the actual image path
+  img.alt = "Minimized Image";
+
+  // Set the width and height directly in HTML
+  img.width = 150;   // Minimize the image to 150px wide
+  img.height = 100;  // Adjust height accordingly (optional)
+
+  // Append the image to the container
+  const container = document.querySelector(".container");
+  resultDiv.appendChild(img);
 
   
-  resultDiv.innerHTML+=resultMsg;
+ 
 
   // Show the result.
   resultDiv.classList.remove('hidden');
