@@ -110,7 +110,7 @@ label {
   vertical-align: middle;
   text-align: center;
 }
-.result img {
+.dynamic-img {
   width: 50%;
   height: 50%;
   max-width: 350px;
