@@ -113,3 +113,7 @@ label {
   vertical-align: middle;
   text-align: center;
 }
+p {
+  width: 200px;  /* Set width to 200px */
+  height: auto;  /* Maintain aspect ratio */
+}
