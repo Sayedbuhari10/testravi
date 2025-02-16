@@ -1,6 +1,7 @@
 const userInput = document.getElementById('text-input');
 const checkPalindromeBtn = document.getElementById('check-btn');
 const resultDiv = document.getElementById('result');
+const resultDiv2 = document.getElementById('result2');
 
 function checkForPalindrome (input ) {
   
@@ -23,12 +24,12 @@ function checkForPalindrome (input ) {
   img.alt = "Minimized Image";
 
   // Set the width and height directly in HTML
-  img.width = 150;   // Minimize the image to 150px wide
-  img.height = 100;  // Adjust height accordingly (optional)
+  img.width = 350;   // Minimize the image to 150px wide
+  img.height = 400;  // Adjust height accordingly (optional)
 
   // Append the image to the container
   const container = document.querySelector(".container");
-  resultDiv.appendChild(img);
+  resultDiv2.appendChild(img);
 
   
  
